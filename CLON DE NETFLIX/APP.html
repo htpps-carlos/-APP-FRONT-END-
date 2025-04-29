@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="nav " id="nav">
+       <img src="netflix-logo.png" alt="" class="nav__logo">
+       <img src="netflix-avatar.png" alt="" class="nav__avatar">
+
+    </div>
+
+    <div class="banner">
+        <div class="banner_contents">
+            <h1 class="banner_title">MONEY HEIST</h1>
+            <div class="banner_buttons">
+                <button class="banner_button" onclick="play()">PLAY</button>
+                <button class="banner_button" onclick="myList()">MY LIST</button>
+            </div>
+            <div class="banner_description">
+                Money Heist is a 2022 American thriller-crime written by Steven Spielberg. The film stars Christopher Nolan, Alfred Hitchcock, and deals with the heist in New York of human relationships.
+            </div>
+        </div>
+        <div class="fade_button"></div>
+    </div>
+    
+    
+
+    <div class="row">
+        <h2>ORIGINAL NETFLIX</h2>
+        <div class="row_posters">
+            <img src="large-movie1.jpg" alt="Original Netflix 1" class="row_poster row_posterLarge">
+            <img src="large-movie2.jpg" alt="Original Netflix 2" class="row_poster row_posterLarge">
+            <img src="large-movie3.jpg" alt="Original Netflix 3" class="row_poster row_posterLarge">
+            <img src="large-movie4.jpg" alt="Original Netflix 4" class="row_poster row_posterLarge">
+            <img src="large-movie5.jpg" alt="Original Netflix 5" class="row_poster row_posterLarge">
+            <img src="large-movie6.jpg" alt="Original Netflix 6" class="row_poster row_posterLarge">
+            <img src="large-movie7.jpg" alt="Original Netflix 7" class="row_poster row_posterLarge">
+            <img src="large-movie8.jpg" alt="Original Netflix 8" class="row_poster row_posterLarge">
+        </div>
+    </div>
+    
+    <div class="row">
+        <h2>TENDENCIA NUEVA</h2>
+        <div class="row_posters">
+            <img src="small-movie1.jpg" alt="Trending 1" class="row_poster">
+            <img src="small-movie2.jpg" alt="Trending 2" class="row_poster">
+            <img src="small-movie3.jpg" alt="Trending 3" class="row_poster">
+            <img src="small-movie4.jpg" alt="Trending 4" class="row_poster">
+            <img src="small-movie5.jpg" alt="Trending 5" class="row_poster">
+            <img src="small-movie6.jpg" alt="Trending 6" class="row_poster">
+            <img src="small-movie7.jpg" alt="Trending 7" class="row_poster">
+            <img src="small-movie8.jpg" alt="Trending 8" class="row_poster">
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>TOP ROTACION</h2>
+        <div class="row_posters">
+            <img src="small-movie1.jpg" alt="Top Rotation 1" class="row_poster">
+            <img src="small-movie2.jpg" alt="Top Rotation 2" class="row_poster">
+            <img src="small-movie3.jpg" alt="Top Rotation 3" class="row_poster">
+            <img src="small-movie4.jpg" alt="Top Rotation 4" class="row_poster">
+            <img src="small-movie5.jpg" alt="Top Rotation 5" class="row_poster">
+            <img src="small-movie6.jpg" alt="Top Rotation 6" class="row_poster">
+            <img src="small-movie7.jpg" alt="Top Rotation 7" class="row_poster">
+            <img src="small-movie8.jpg" alt="Top Rotation 8" class="row_poster">
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>PELICULAS DE ACCION</h2>
+        <div class="row_posters">
+            <img src="small-movie1.jpg" alt="Action Movie 1" class="row_poster">
+            <img src="small-movie2.jpg" alt="Action Movie 2" class="row_poster">
+            <img src="small-movie3.jpg" alt="Action Movie 3" class="row_poster">
+            <img src="small-movie4.jpg" alt="Action Movie 4" class="row_poster">
+            <img src="small-movie5.jpg" alt="Action Movie 5" class="row_poster">
+            <img src="small-movie6.jpg" alt="Action Movie 6" class="row_poster">
+            <img src="small-movie7.jpg" alt="Action Movie 7" class="row_poster">
+            <img src="small-movie8.jpg" alt="Action Movie 8" class="row_poster">
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>PELICULAS DE COMEDIA</h2>
+        <div class="row_posters">
+            <img src="small-movie1.jpg" alt="Comedy Movie 1" class="row_poster">
+            <img src="small-movie2.jpg" alt="Comedy Movie 2" class="row_poster">
+            <img src="small-movie3.jpg" alt="Comedy Movie 3" class="row_poster">
+            <img src="small-movie4.jpg" alt="Comedy Movie 4" class="row_poster">
+            <img src="small-movie5.jpg" alt="Comedy Movie 5" class="row_poster">
+            <img src="small-movie6.jpg" alt="Comedy Movie 6" class="row_poster">
+            <img src="small-movie7.jpg" alt="Comedy Movie 7" class="row_poster">
+            <img src="small-movie8.jpg" alt="Comedy Movie 8" class="row_poster">
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>HORROR NUEVA</h2>
+        <div class="row_posters">
+            <img src="small-movie1.jpg" alt="Horror Movie 1" class="row_poster">
+            <img src="small-movie2.jpg" alt="Horror Movie 2" class="row_poster">
+            <img src="small-movie3.jpg" alt="Horror Movie 3" class="row_poster">
+            <img src="small-movie4.jpg" alt="Horror Movie 4" class="row_poster">
+            <img src="small-movie5.jpg" alt="Horror Movie 5" class="row_poster">
+            <img src="small-movie6.jpg" alt="Horror Movie 6" class="row_poster">
+            <img src="small-movie7.jpg" alt="Horror Movie 7" class="row_poster">
+            <img src="small-movie8.jpg" alt="Horror Movie 8" class="row_poster">
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>ROMANTICAS NUEVAS</h2>
+        <div class="row_posters">
+            <img src="small-movie1.jpg" alt="Romantic Movie 1" class="row_poster">
+            <img src="small-movie2.jpg" alt="Romantic Movie 2" class="row_poster">
+            <img src="small-movie3.jpg" alt="Romantic Movie 3" class="row_poster">
+            <img src="small-movie4.jpg" alt="Romantic Movie 4" class="row_poster">
+            <img src="small-movie5.jpg" alt="Romantic Movie 5" class="row_poster">
+            <img src="small-movie6.jpg" alt="Romantic Movie 6" class="row_poster">
+            <img src="small-movie7.jpg" alt="Romantic Movie 7" class="row_poster">
+            <img src="small-movie8.jpg" alt="Romantic Movie 8" class="row_poster">
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>DOCUMENTALES</h2>
+        <div class="row_posters">
+            <img src="small-movie1.jpg" alt="Documentary 1" class="row_poster">
+            <img src="small-movie2.jpg" alt="Documentary 2" class="row_poster">
+            <img src="small-movie3.jpg" alt="Documentary 3" class="row_poster">
+            <img src="small-movie4.jpg" alt="Documentary 4" class="row_poster">
+            <img src="small-movie5.jpg" alt="Documentary 5" class="row_poster">
+            <img src="small-movie6.jpg" alt="Documentary 6" class="row_poster">
+            <img src="small-movie7.jpg" alt="Documentary 7" class="row_poster">
+            <img src="small-movie8.jpg" alt="Documentary 8" class="row_poster">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
